@@ -1,0 +1,26 @@
+{
+    "name": "tasmir/contact",
+    "description": "This will send email to admin and save contact to database",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tasmir Ahmed",
+            "email": "tasmir.cse@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Tasmir\\Contact\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Tasmir\\Contact\\ContactServiceProvider"
+            ]
+        }
+    },
+}
